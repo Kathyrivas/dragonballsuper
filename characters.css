@@ -1,0 +1,161 @@
+.container { 
+	height:20vh;
+	width:100vw;
+}
+
+.container1 {
+	height: 70vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;	
+	background-color: #000000;
+}
+
+.green {
+	background-repeat: no-repeat;
+	height:70vh;
+	width:50vw;
+	display: flex;
+	justify-content: center;
+}
+
+.Goku{
+	width: 100%;
+	height: 100%;
+	background-color: "000000";
+}
+
+.lightgreen{
+	background-color:#000000;
+	height:70vh;
+	width:50vw;
+}
+
+
+.red{
+    background-image: url("images/stars2.gif");
+	height:20vh;
+	width:100vw;
+}
+
+.orange{
+	background-color:#150F2E;
+	height:15vh;
+	width:60vh;
+}
+
+
+.red2{
+	content: url("images/stars2.gif");
+	height:20vh;
+	width:100vw;
+} 
+
+img:hover {
+    cursor: pointer;
+}
+
+img:active {
+	transform: scale(0.98, 0.98);
+}
+
+img {
+	transition: .5s ease-in-out;
+	max-width: 90%;
+	max-height: 90%;
+	opacity: 1.0;
+	transition: .3s ease-in-out;
+	margin: 40px auto;
+}
+
+  h2 {
+	 font-weight: 500;
+	 text-align: center;
+	 font-style: Georgia;
+	 word-spacing: 10px;
+	 color: #FFFEFE;
+}
+
+  h3 {
+	 font-weight: 500;
+	 text-align: center;
+	 font-style: Georgia;
+	 word-spacing: 10px;
+	 color: #FFFEFE;
+}
+
+.power-up {
+	content:url(images/GokuUltra_Instinct.gif);
+	height:60vh;
+	width:50vw;
+}	
+
+.power-up1 {
+	content:url(images/vegetasuper.gif);
+	height:60vh;
+	width:50vw;
+}	
+
+.power-up2 {
+	content:url(images/Hit2.gif);
+	height:60vh;
+	width:50vw;
+}	
+
+.power-up3 {
+	content:url(images/jiren2.gif);
+	height:60vh;
+	width:50vw;
+}	
+
+.power-up4 {
+	content:url(images/Beerus2.gif);
+	height:60vh;
+	width:50vw;
+}	
+
+.power-up5 {
+	content:url(images/Zeno2.gif);
+	height:60vh;
+	width:50vw;
+}	
+
+
+@media screen and (max-width:800px){
+.container {
+	height: 10vh;
+	width: 100vw;
+}
+
+.container1 {
+	height: 130vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;	
+	background-color: #000000;
+}
+
+.green {
+	height: 50vh;
+	width: 100vw
+}
+
+.lightgreen {
+	height: 80vh;
+	width: 100vw;
+}
+
+.red2 {
+	height: 10vh;
+	width: 100vw;
+}
+
+ 
+
+
+	
+	
+	
+	
+	
+	
